@@ -197,15 +197,15 @@ body::-webkit-scrollbar {
     }
 
     .first-title {
-      @apply rotate-[3deg] relative z-10;
+      @apply rotate-[3deg] relative z-10 -mt-5 -mb-22;
     }
 
     .second-title {
-      @apply rotate-[-1deg] md:-translate-y-5;
+      @apply rotate-[-1deg] md:-translate-y-5 -mb-18;
     }
 
     .third-title {
-      @apply rotate-[1deg] md:-translate-y-12 relative z-10;
+      @apply rotate-[1deg] md:-translate-y-12 relative z-10 -mb-24;
     }
 
     .fourth-title {
