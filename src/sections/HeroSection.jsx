@@ -86,30 +86,33 @@ const HeroSection = () => {
             className="absolute inset-0 w-full h-full object-cover"
           />
         )}
-        <div className="hero-content opacity-0">
-          <div className="overflow-hidden">
-            <h1 className="hero-title">Freaking Delicious</h1>
-          </div>
-          <div
-            style={{
-              clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)",
-            }}
-            className="hero-text-scroll"
-          >
-            <div className="hero-subtitle">
-              <h1>Protein + Caffine </h1>
-            </div>
-          </div>
+       <div className="hero-content opacity-0">
+  <div className="overflow-hidden">
+    <h1 className="hero-title whitespace-nowrap text-3xl sm:text-4xl md:text-7xl">
+      Freaking Delicious
+    </h1>
+  </div>
 
-          <h2>
-            Live life to the fullest with SPYLT: Shatter boredom and embrace
-            your inner kid with every deliciously smooth chug.
-          </h2>
+  <div
+    style={{
+      clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)",
+    }}
+    className="hero-text-scroll"
+  >
+    <div className="hero-subtitle whitespace-nowrap ">
+      <h1 className="text-[3rem] sm:text-[4rem] md:text-[6rem]">Protein + Caffeine</h1>
+    </div>
+  </div>
 
-          <div className="hero-button">
-            <p>Chug a SPYLT</p>
-          </div>
-        </div>
+  <h2 className="mt-4 text-sm sm:text-base md:text-lg">
+    Live life to the fullest with SPYLT: Shatter boredom and embrace
+    your inner kid with every deliciously smooth chug.
+  </h2>
+
+  <div className="hero-button mt-4">
+    <p>Chug a SPYLT</p>
+  </div>
+</div>
       </div>
     </section>
   );
